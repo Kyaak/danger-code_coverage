@@ -1,0 +1,1004 @@
+{
+    "_class": "io.jenkins.plugins.coverage.targets.CoverageResult",
+    "results": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {},
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 7.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 75.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 21.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Conditional",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "MainActivity.java"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 9.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 3.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "MainActivityFragment.java"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 1.0,
+                                                "ratio": 100.0
+                                            },
+                                            {
+                                                "denominator": 6.0,
+                                                "name": "Method",
+                                                "numerator": 1.0,
+                                                "ratio": 16.666666
+                                            },
+                                            {
+                                                "denominator": 26.0,
+                                                "name": "Instruction",
+                                                "numerator": 6.0,
+                                                "ratio": 23.076923
+                                            },
+                                            {
+                                                "denominator": 10.0,
+                                                "name": "Line",
+                                                "numerator": 1.0,
+                                                "ratio": 10.0
+                                            },
+                                            {
+                                                "denominator": 4.0,
+                                                "name": "Conditional",
+                                                "numerator": 2.0,
+                                                "ratio": 50.0
+                                            }
+                                        ],
+                                        "name": "MyUtil.java"
+                                    }
+                                ],
+                                "elements": [
+                                    {
+                                        "denominator": 3.0,
+                                        "name": "File",
+                                        "numerator": 1.0,
+                                        "ratio": 33.333332
+                                    },
+                                    {
+                                        "denominator": 4.0,
+                                        "name": "Class",
+                                        "numerator": 1.0,
+                                        "ratio": 25.0
+                                    },
+                                    {
+                                        "denominator": 15.0,
+                                        "name": "Method",
+                                        "numerator": 1.0,
+                                        "ratio": 6.6666665
+                                    },
+                                    {
+                                        "denominator": 110.0,
+                                        "name": "Instruction",
+                                        "numerator": 6.0,
+                                        "ratio": 5.4545455
+                                    },
+                                    {
+                                        "denominator": 34.0,
+                                        "name": "Line",
+                                        "numerator": 1.0,
+                                        "ratio": 2.9411764
+                                    },
+                                    {
+                                        "denominator": 6.0,
+                                        "name": "Conditional",
+                                        "numerator": 2.0,
+                                        "ratio": 33.333332
+                                    }
+                                ],
+                                "name": "com/example/kyaak/myapplication"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 3.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 10.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 4.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "SpotbugsExample.java"
+                                    },
+                                    {
+                                        "children": [
+                                            {},
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 7.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 79.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 9.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 6.0,
+                                                "name": "Conditional",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "TestActivity.kt"
+                                    }
+                                ],
+                                "elements": [
+                                    {
+                                        "denominator": 2.0,
+                                        "name": "File",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 3.0,
+                                        "name": "Class",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 10.0,
+                                        "name": "Method",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 89.0,
+                                        "name": "Instruction",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 13.0,
+                                        "name": "Line",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 6.0,
+                                        "name": "Conditional",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    }
+                                ],
+                                "name": "com/example/mylibrary"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 8.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 270.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 31.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 34.0,
+                                                "name": "Conditional",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "ShoppingCart.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {},
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 17.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 883.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 109.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 108.0,
+                                                "name": "Conditional",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "ShoppingCartHandlerImpl.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 8.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 41.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "ShoppingItemQuantity.kt"
+                                    }
+                                ],
+                                "elements": [
+                                    {
+                                        "denominator": 3.0,
+                                        "name": "File",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 4.0,
+                                        "name": "Class",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 33.0,
+                                        "name": "Method",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 1194.0,
+                                        "name": "Instruction",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 141.0,
+                                        "name": "Line",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    },
+                                    {
+                                        "denominator": 142.0,
+                                        "name": "Conditional",
+                                        "numerator": 0.0,
+                                        "ratio": 0.0
+                                    }
+                                ],
+                                "name": "com/example/mylibrary/handler/cart"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 9.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 31.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 5.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "Address.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 19.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 66.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 10.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "Customer.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 9.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 31.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 5.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "Images.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 11.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 38.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 6.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "Prices.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 35.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 122.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 18.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "ProductAbstract.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 21.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 73.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 11.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "ProductConcrete.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 1.0,
+                                                "ratio": 100.0
+                                            },
+                                            {
+                                                "denominator": 25.0,
+                                                "name": "Method",
+                                                "numerator": 3.0,
+                                                "ratio": 12.0
+                                            },
+                                            {
+                                                "denominator": 87.0,
+                                                "name": "Instruction",
+                                                "numerator": 9.0,
+                                                "ratio": 10.344828
+                                            },
+                                            {
+                                                "denominator": 13.0,
+                                                "name": "Line",
+                                                "numerator": 3.0,
+                                                "ratio": 23.076923
+                                            }
+                                        ],
+                                        "name": "ProductGroup.kt"
+                                    }
+                                ],
+                                "elements": [
+                                    {
+                                        "denominator": 7.0,
+                                        "name": "File",
+                                        "numerator": 1.0,
+                                        "ratio": 14.285714
+                                    },
+                                    {
+                                        "denominator": 7.0,
+                                        "name": "Class",
+                                        "numerator": 1.0,
+                                        "ratio": 14.285714
+                                    },
+                                    {
+                                        "denominator": 129.0,
+                                        "name": "Method",
+                                        "numerator": 3.0,
+                                        "ratio": 2.3255813
+                                    },
+                                    {
+                                        "denominator": 448.0,
+                                        "name": "Instruction",
+                                        "numerator": 9.0,
+                                        "ratio": 2.0089285
+                                    },
+                                    {
+                                        "denominator": 68.0,
+                                        "name": "Line",
+                                        "numerator": 3.0,
+                                        "ratio": 4.4117646
+                                    }
+                                ],
+                                "name": "com/example/mylibrary/model/domain"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 116.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 15.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 12.0,
+                                                "name": "Conditional",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "AbstractPriceCalculator.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Method",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 119.0,
+                                                "name": "Instruction",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 12.0,
+                                                "name": "Line",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            },
+                                            {
+                                                "denominator": 6.0,
+                                                "name": "Conditional",
+                                                "numerator": 0.0,
+                                                "ratio": 0.0
+                                            }
+                                        ],
+                                        "name": "ConcretePriceCalculator.kt"
+                                    },
+                                    {
+                                        "children": [
+                                            {}
+                                        ],
+                                        "elements": [
+                                            {
+                                                "denominator": 1.0,
+                                                "name": "Class",
+                                                "numerator": 1.0,
+                                                "ratio": 100.0
+                                            },
+                                            {
+                                                "denominator": 2.0,
+                                                "name": "Method",
+                                                "numerator": 2.0,
+                                                "ratio": 100.0
+                                            },
+                                            {
+                                                "denominator": 93.0,
+                                                "name": "Instruction",
+                                                "numerator": 37.0,
+                                                "ratio": 39.784946
+                                            },
+                                            {
+                                                "denominator": 13.0,
+                                                "name": "Line",
+                                                "numerator": 5.0,
+                                                "ratio": 38.46154
+                                            },
+                                            {
+                                                "denominator": 6.0,
+                                                "name": "Conditional",
+                                                "numerator": 1.0,
+                                                "ratio": 16.666666
+                                            }
+                                        ],
+                                        "name": "GroupPriceCalculator.kt"
+                                    }
+                                ],
+                                "elements": [
+                                    {
+                                        "denominator": 3.0,
+                                        "name": "File",
+                                        "numerator": 1.0,
+                                        "ratio": 33.333332
+                                    },
+                                    {
+                                        "denominator": 3.0,
+                                        "name": "Class",
+                                        "numerator": 1.0,
+                                        "ratio": 33.333332
+                                    },
+                                    {
+                                        "denominator": 6.0,
+                                        "name": "Method",
+                                        "numerator": 2.0,
+                                        "ratio": 33.333332
+                                    },
+                                    {
+                                        "denominator": 328.0,
+                                        "name": "Instruction",
+                                        "numerator": 37.0,
+                                        "ratio": 11.280488
+                                    },
+                                    {
+                                        "denominator": 40.0,
+                                        "name": "Line",
+                                        "numerator": 5.0,
+                                        "ratio": 12.5
+                                    },
+                                    {
+                                        "denominator": 24.0,
+                                        "name": "Conditional",
+                                        "numerator": 1.0,
+                                        "ratio": 4.1666665
+                                    }
+                                ],
+                                "name": "com/example/mylibrary/util/price"
+                            }
+                        ],
+                        "elements": [
+                            {
+                                "denominator": 5.0,
+                                "name": "Package",
+                                "numerator": 3.0,
+                                "ratio": 60.0
+                            },
+                            {
+                                "denominator": 18.0,
+                                "name": "File",
+                                "numerator": 3.0,
+                                "ratio": 16.666666
+                            },
+                            {
+                                "denominator": 21.0,
+                                "name": "Class",
+                                "numerator": 3.0,
+                                "ratio": 14.285714
+                            },
+                            {
+                                "denominator": 193.0,
+                                "name": "Method",
+                                "numerator": 6.0,
+                                "ratio": 3.1088083
+                            },
+                            {
+                                "denominator": 2169.0,
+                                "name": "Instruction",
+                                "numerator": 52.0,
+                                "ratio": 2.3974183
+                            },
+                            {
+                                "denominator": 296.0,
+                                "name": "Line",
+                                "numerator": 9.0,
+                                "ratio": 3.0405405
+                            },
+                            {
+                                "denominator": 178.0,
+                                "name": "Conditional",
+                                "numerator": 3.0,
+                                "ratio": 1.6853932
+                            }
+                        ],
+                        "name": "project"
+                    }
+                ],
+                "elements": [
+                    {
+                        "denominator": 1.0,
+                        "name": "Group",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                    },
+                    {
+                        "denominator": 5.0,
+                        "name": "Package",
+                        "numerator": 3.0,
+                        "ratio": 60.0
+                    },
+                    {
+                        "denominator": 18.0,
+                        "name": "File",
+                        "numerator": 3.0,
+                        "ratio": 16.666666
+                    },
+                    {
+                        "denominator": 21.0,
+                        "name": "Class",
+                        "numerator": 3.0,
+                        "ratio": 14.285714
+                    },
+                    {
+                        "denominator": 193.0,
+                        "name": "Method",
+                        "numerator": 6.0,
+                        "ratio": 3.1088083
+                    },
+                    {
+                        "denominator": 2169.0,
+                        "name": "Instruction",
+                        "numerator": 52.0,
+                        "ratio": 2.3974183
+                    },
+                    {
+                        "denominator": 296.0,
+                        "name": "Line",
+                        "numerator": 9.0,
+                        "ratio": 3.0405405
+                    },
+                    {
+                        "denominator": 178.0,
+                        "name": "Conditional",
+                        "numerator": 3.0,
+                        "ratio": 1.6853932
+                    }
+                ],
+                "name": "code_quality: jacoco.xml"
+            }
+        ],
+        "elements": [
+            {
+                "denominator": 1.0,
+                "name": "Report",
+                "numerator": 1.0,
+                "ratio": 100.0
+            },
+            {
+                "denominator": 1.0,
+                "name": "Group",
+                "numerator": 1.0,
+                "ratio": 100.0
+            },
+            {
+                "denominator": 5.0,
+                "name": "Package",
+                "numerator": 3.0,
+                "ratio": 60.0
+            },
+            {
+                "denominator": 18.0,
+                "name": "File",
+                "numerator": 3.0,
+                "ratio": 16.666666
+            },
+            {
+                "denominator": 21.0,
+                "name": "Class",
+                "numerator": 3.0,
+                "ratio": 14.285714
+            },
+            {
+                "denominator": 193.0,
+                "name": "Method",
+                "numerator": 6.0,
+                "ratio": 3.1088083
+            },
+            {
+                "denominator": 2169.0,
+                "name": "Instruction",
+                "numerator": 52.0,
+                "ratio": 2.3974183
+            },
+            {
+                "denominator": 296.0,
+                "name": "Line",
+                "numerator": 9.0,
+                "ratio": 3.0405405
+            },
+            {
+                "denominator": 178.0,
+                "name": "Conditional",
+                "numerator": 3.0,
+                "ratio": 1.6853932
+            }
+        ],
+        "name": "All reports"
+    }
+}

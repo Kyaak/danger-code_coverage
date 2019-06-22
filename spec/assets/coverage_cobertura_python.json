@@ -1,0 +1,519 @@
+{
+  "_class": "io.jenkins.plugins.coverage.targets.CoverageResult",
+  "results": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 35.0,
+                        "name": "Line",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 4.0,
+                        "name": "Conditional",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      }
+                    ],
+                    "name": "generator.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 91.0,
+                        "name": "Line",
+                        "numerator": 53.0,
+                        "ratio": 58.241756
+                      },
+                      {
+                        "denominator": 46.0,
+                        "name": "Conditional",
+                        "numerator": 17.0,
+                        "ratio": 36.95652
+                      }
+                    ],
+                    "name": "setup_parser.py"
+                  }
+                ],
+                "elements": [
+                  {
+                    "denominator": 2.0,
+                    "name": "File",
+                    "numerator": 1.0,
+                    "ratio": 50.0
+                  },
+                  {
+                    "denominator": 2.0,
+                    "name": "Class",
+                    "numerator": 1.0,
+                    "ratio": 50.0
+                  },
+                  {
+                    "denominator": 126.0,
+                    "name": "Line",
+                    "numerator": 53.0,
+                    "ratio": 42.06349
+                  },
+                  {
+                    "denominator": 50.0,
+                    "name": "Conditional",
+                    "numerator": 17.0,
+                    "ratio": 34.0
+                  }
+                ],
+                "name": "."
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 18.0,
+                        "name": "Line",
+                        "numerator": 16.0,
+                        "ratio": 88.888885
+                      },
+                      {
+                        "denominator": 4.0,
+                        "name": "Conditional",
+                        "numerator": 4.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/base_type_parser.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 27.0,
+                        "name": "Line",
+                        "numerator": 24.0,
+                        "ratio": 88.888885
+                      },
+                      {
+                        "denominator": 8.0,
+                        "name": "Conditional",
+                        "numerator": 7.0,
+                        "ratio": 87.5
+                      }
+                    ],
+                    "name": "type_parser/base_type_parser_manager.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 7.0,
+                        "name": "Line",
+                        "numerator": 7.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/cpp_type_parser_manager.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 20.0,
+                        "name": "Line",
+                        "numerator": 20.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/java_type_parser_manager.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 21.0,
+                        "name": "Line",
+                        "numerator": 21.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/jni_type_parser_manager.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 26.0,
+                        "name": "Line",
+                        "numerator": 26.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 2.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/objective_c_type_parser_manager.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 21.0,
+                        "name": "Line",
+                        "numerator": 21.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 2.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/parser_matcher_util.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 35.0,
+                        "name": "Line",
+                        "numerator": 31.0,
+                        "ratio": 88.57143
+                      },
+                      {
+                        "denominator": 6.0,
+                        "name": "Conditional",
+                        "numerator": 3.0,
+                        "ratio": 50.0
+                      }
+                    ],
+                    "name": "type_parser/signature_parser_manager.py"
+                  }
+                ],
+                "elements": [
+                  {
+                    "denominator": 8.0,
+                    "name": "File",
+                    "numerator": 8.0,
+                    "ratio": 100.0
+                  },
+                  {
+                    "denominator": 8.0,
+                    "name": "Class",
+                    "numerator": 8.0,
+                    "ratio": 100.0
+                  },
+                  {
+                    "denominator": 175.0,
+                    "name": "Line",
+                    "numerator": 166.0,
+                    "ratio": 94.85714
+                  },
+                  {
+                    "denominator": 22.0,
+                    "name": "Conditional",
+                    "numerator": 18.0,
+                    "ratio": 81.818184
+                  }
+                ],
+                "name": "type_parser"
+              },
+              {
+                "children": [
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 11.0,
+                        "name": "Line",
+                        "numerator": 9.0,
+                        "ratio": 81.818184
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 1.0,
+                        "ratio": 50.0
+                      }
+                    ],
+                    "name": "type_parser/java/char_vector_parser_java.py"
+                  },
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 1.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 10.0,
+                        "name": "Line",
+                        "numerator": 10.0,
+                        "ratio": 100.0
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 2.0,
+                        "ratio": 100.0
+                      }
+                    ],
+                    "name": "type_parser/java/date_parser_java.py"
+                  }
+                ],
+                "elements": [
+                  {
+                    "denominator": 9.0,
+                    "name": "File",
+                    "numerator": 9.0,
+                    "ratio": 100.0
+                  },
+                  {
+                    "denominator": 9.0,
+                    "name": "Class",
+                    "numerator": 9.0,
+                    "ratio": 100.0
+                  },
+                  {
+                    "denominator": 116.0,
+                    "name": "Line",
+                    "numerator": 110.0,
+                    "ratio": 94.82758
+                  },
+                  {
+                    "denominator": 26.0,
+                    "name": "Conditional",
+                    "numerator": 20.0,
+                    "ratio": 76.92308
+                  }
+                ],
+                "name": "type_parser.java"
+              }
+            ],
+            "elements": [
+              {
+                "denominator": 22.0,
+                "name": "Package",
+                "numerator": 22.0,
+                "ratio": 100.0
+              },
+              {
+                "denominator": 133.0,
+                "name": "File",
+                "numerator": 130.0,
+                "ratio": 97.74436
+              },
+              {
+                "denominator": 133.0,
+                "name": "Class",
+                "numerator": 130.0,
+                "ratio": 97.74436
+              },
+              {
+                "denominator": 5555.0,
+                "name": "Line",
+                "numerator": 4557.0,
+                "ratio": 82.0342
+              },
+              {
+                "denominator": 1068.0,
+                "name": "Conditional",
+                "numerator": 684.0,
+                "ratio": 64.044945
+              }
+            ],
+            "name": "project"
+          }
+        ],
+        "elements": [
+          {
+            "denominator": 1.0,
+            "name": "Group",
+            "numerator": 1.0,
+            "ratio": 100.0
+          },
+          {
+            "denominator": 22.0,
+            "name": "Package",
+            "numerator": 22.0,
+            "ratio": 100.0
+          },
+          {
+            "denominator": 133.0,
+            "name": "File",
+            "numerator": 130.0,
+            "ratio": 97.74436
+          },
+          {
+            "denominator": 133.0,
+            "name": "Class",
+            "numerator": 130.0,
+            "ratio": 97.74436
+          },
+          {
+            "denominator": 5555.0,
+            "name": "Line",
+            "numerator": 4557.0,
+            "ratio": 82.0342
+          },
+          {
+            "denominator": 1068.0,
+            "name": "Conditional",
+            "numerator": 684.0,
+            "ratio": 64.044945
+          }
+        ],
+        "name": "cobertura: coverage.xml"
+      }
+    ],
+    "elements": [
+      {
+        "denominator": 1.0,
+        "name": "Report",
+        "numerator": 1.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 1.0,
+        "name": "Group",
+        "numerator": 1.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 22.0,
+        "name": "Package",
+        "numerator": 22.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 133.0,
+        "name": "File",
+        "numerator": 130.0,
+        "ratio": 97.74436
+      },
+      {
+        "denominator": 133.0,
+        "name": "Class",
+        "numerator": 130.0,
+        "ratio": 97.74436
+      },
+      {
+        "denominator": 5555.0,
+        "name": "Line",
+        "numerator": 4557.0,
+        "ratio": 82.0342
+      },
+      {
+        "denominator": 1068.0,
+        "name": "Conditional",
+        "numerator": 684.0,
+        "ratio": 64.044945
+      }
+    ],
+    "name": "All reports"
+  }
+}

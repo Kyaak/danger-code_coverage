@@ -1,0 +1,328 @@
+{
+  "_class": "io.jenkins.plugins.coverage.targets.CoverageResult",
+  "results": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {},
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 2.0,
+                        "name": "Class",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 7.0,
+                        "name": "Method",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 75.0,
+                        "name": "Instruction",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 21.0,
+                        "name": "Line",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      }
+                    ],
+                    "name": "MainActivity.java"
+                  },
+                  {
+                    "children": [
+                      {},
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 2.0,
+                        "name": "Class",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 7.0,
+                        "name": "Method",
+                        "numerator": 0.0,
+                        "ratio": 13.3444
+                      },
+                      {
+                        "denominator": 75.0,
+                        "name": "Instruction",
+                        "numerator": 0.0,
+                        "ratio": 65.442
+                      },
+                      {
+                        "denominator": 21.0,
+                        "name": "Line",
+                        "numerator": 0.0,
+                        "ratio": 75.0
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 0.0,
+                        "ratio": 49.99
+                      }
+                    ],
+                    "name": "MainActivity2.java"
+                  },
+                  {
+                    "children": [
+                      {},
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 2.0,
+                        "name": "Class",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 7.0,
+                        "name": "Method",
+                        "numerator": 0.0,
+                        "ratio": 13.3444
+                      },
+                      {
+                        "denominator": 75.0,
+                        "name": "Instruction",
+                        "numerator": 0.0,
+                        "ratio": 15.442
+                      },
+                      {
+                        "denominator": 21.0,
+                        "name": "Line",
+                        "numerator": 0.0,
+                        "ratio": 30.0
+                      },
+                      {
+                        "denominator": 2.0,
+                        "name": "Conditional",
+                        "numerator": 0.0,
+                        "ratio": 20.99
+                      }
+                    ],
+                    "name": "MainActivity3.java"
+                  }
+                ],
+                "elements": [
+                  {
+                    "denominator": 3.0,
+                    "name": "File",
+                    "numerator": 1.0,
+                    "ratio": 33.333332
+                  },
+                  {
+                    "denominator": 4.0,
+                    "name": "Class",
+                    "numerator": 1.0,
+                    "ratio": 25.0
+                  },
+                  {
+                    "denominator": 15.0,
+                    "name": "Method",
+                    "numerator": 1.0,
+                    "ratio": 6.6666665
+                  },
+                  {
+                    "denominator": 110.0,
+                    "name": "Instruction",
+                    "numerator": 6.0,
+                    "ratio": 5.4545455
+                  },
+                  {
+                    "denominator": 34.0,
+                    "name": "Line",
+                    "numerator": 1.0,
+                    "ratio": 2.9411764
+                  },
+                  {
+                    "denominator": 6.0,
+                    "name": "Conditional",
+                    "numerator": 2.0,
+                    "ratio": 33.333332
+                  }
+                ],
+                "name": "com/example/kyaak/myapplication"
+              }
+            ],
+            "elements": [
+              {
+                "denominator": 5.0,
+                "name": "Package",
+                "numerator": 3.0,
+                "ratio": 60.0
+              },
+              {
+                "denominator": 18.0,
+                "name": "File",
+                "numerator": 3.0,
+                "ratio": 16.666666
+              },
+              {
+                "denominator": 21.0,
+                "name": "Class",
+                "numerator": 3.0,
+                "ratio": 14.285714
+              },
+              {
+                "denominator": 193.0,
+                "name": "Method",
+                "numerator": 6.0,
+                "ratio": 3.1088083
+              },
+              {
+                "denominator": 2169.0,
+                "name": "Instruction",
+                "numerator": 52.0,
+                "ratio": 2.3974183
+              },
+              {
+                "denominator": 296.0,
+                "name": "Line",
+                "numerator": 9.0,
+                "ratio": 3.0405405
+              },
+              {
+                "denominator": 178.0,
+                "name": "Conditional",
+                "numerator": 3.0,
+                "ratio": 1.6853932
+              }
+            ],
+            "name": "project"
+          }
+        ],
+        "elements": [
+          {
+            "denominator": 1.0,
+            "name": "Group",
+            "numerator": 1.0,
+            "ratio": 100.0
+          },
+          {
+            "denominator": 5.0,
+            "name": "Package",
+            "numerator": 3.0,
+            "ratio": 60.0
+          },
+          {
+            "denominator": 18.0,
+            "name": "File",
+            "numerator": 3.0,
+            "ratio": 16.666666
+          },
+          {
+            "denominator": 21.0,
+            "name": "Class",
+            "numerator": 3.0,
+            "ratio": 14.285714
+          },
+          {
+            "denominator": 193.0,
+            "name": "Method",
+            "numerator": 6.0,
+            "ratio": 3.1088083
+          },
+          {
+            "denominator": 2169.0,
+            "name": "Instruction",
+            "numerator": 52.0,
+            "ratio": 2.3974183
+          },
+          {
+            "denominator": 296.0,
+            "name": "Line",
+            "numerator": 9.0,
+            "ratio": 3.0405405
+          },
+          {
+            "denominator": 178.0,
+            "name": "Conditional",
+            "numerator": 3.0,
+            "ratio": 1.6853932
+          }
+        ],
+        "name": "code_quality: jacoco.xml"
+      }
+    ],
+    "elements": [
+      {
+        "denominator": 1.0,
+        "name": "Report",
+        "numerator": 1.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 1.0,
+        "name": "Group",
+        "numerator": 1.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 5.0,
+        "name": "Package",
+        "numerator": 3.0,
+        "ratio": 60.0
+      },
+      {
+        "denominator": 18.0,
+        "name": "File",
+        "numerator": 3.0,
+        "ratio": 16.666666
+      },
+      {
+        "denominator": 21.0,
+        "name": "Class",
+        "numerator": 3.0,
+        "ratio": 14.285714
+      },
+      {
+        "denominator": 193.0,
+        "name": "Method",
+        "numerator": 6.0,
+        "ratio": 3.1088083
+      },
+      {
+        "denominator": 2169.0,
+        "name": "Instruction",
+        "numerator": 52.0,
+        "ratio": 2.3974183
+      },
+      {
+        "denominator": 296.0,
+        "name": "Line",
+        "numerator": 9.0,
+        "ratio": 3.0405405
+      },
+      {
+        "denominator": 178.0,
+        "name": "Conditional",
+        "numerator": 3.0,
+        "ratio": 1.6853932
+      }
+    ],
+    "name": "All reports"
+  }
+}

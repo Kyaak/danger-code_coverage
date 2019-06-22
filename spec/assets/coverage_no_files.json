@@ -1,0 +1,65 @@
+{
+  "_class": "io.jenkins.plugins.coverage.targets.CoverageResult",
+  "results": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [],
+                "elements": [],
+                "name": "repository"
+              }
+            ],
+            "elements": [
+              {
+                "denominator": 1.0,
+                "name": "Package",
+                "numerator": 0.0,
+                "ratio": 0.0
+              }
+            ],
+            "name": "project"
+          }
+        ],
+        "elements": [
+          {
+            "denominator": 1.0,
+            "name": "Group",
+            "numerator": 0.0,
+            "ratio": 0.0
+          },
+          {
+            "denominator": 1.0,
+            "name": "Package",
+            "numerator": 0.0,
+            "ratio": 0.0
+          }
+        ],
+        "name": "cobertura: coverage.xml"
+      }
+    ],
+    "elements": [
+      {
+        "denominator": 1.0,
+        "name": "Report",
+        "numerator": 0.0,
+        "ratio": 0.0
+      },
+      {
+        "denominator": 1.0,
+        "name": "Group",
+        "numerator": 0.0,
+        "ratio": 0.0
+      },
+      {
+        "denominator": 1.0,
+        "name": "Package",
+        "numerator": 0.0,
+        "ratio": 0.0
+      }
+    ],
+    "name": "All reports"
+  }
+}

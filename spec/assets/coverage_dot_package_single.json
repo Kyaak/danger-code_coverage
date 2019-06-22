@@ -1,0 +1,189 @@
+{
+  "_class": "io.jenkins.plugins.coverage.targets.CoverageResult",
+  "results": {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "children": [
+                  {
+                    "children": [
+                      {}
+                    ],
+                    "elements": [
+                      {
+                        "denominator": 1.0,
+                        "name": "Class",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 35.0,
+                        "name": "Line",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      },
+                      {
+                        "denominator": 4.0,
+                        "name": "Conditional",
+                        "numerator": 0.0,
+                        "ratio": 0.0
+                      }
+                    ],
+                    "name": "generator.py"
+                  }
+                ],
+                "elements": [
+                  {
+                    "denominator": 2.0,
+                    "name": "File",
+                    "numerator": 1.0,
+                    "ratio": 50.0
+                  },
+                  {
+                    "denominator": 2.0,
+                    "name": "Class",
+                    "numerator": 1.0,
+                    "ratio": 50.0
+                  },
+                  {
+                    "denominator": 126.0,
+                    "name": "Line",
+                    "numerator": 53.0,
+                    "ratio": 42.06349
+                  },
+                  {
+                    "denominator": 50.0,
+                    "name": "Conditional",
+                    "numerator": 17.0,
+                    "ratio": 34.0
+                  }
+                ],
+                "name": "."
+              }
+            ],
+            "elements": [
+              {
+                "denominator": 22.0,
+                "name": "Package",
+                "numerator": 22.0,
+                "ratio": 100.0
+              },
+              {
+                "denominator": 133.0,
+                "name": "File",
+                "numerator": 130.0,
+                "ratio": 97.74436
+              },
+              {
+                "denominator": 133.0,
+                "name": "Class",
+                "numerator": 130.0,
+                "ratio": 97.74436
+              },
+              {
+                "denominator": 5555.0,
+                "name": "Line",
+                "numerator": 4557.0,
+                "ratio": 82.0342
+              },
+              {
+                "denominator": 1068.0,
+                "name": "Conditional",
+                "numerator": 684.0,
+                "ratio": 64.044945
+              }
+            ],
+            "name": "project"
+          }
+        ],
+        "elements": [
+          {
+            "denominator": 1.0,
+            "name": "Group",
+            "numerator": 1.0,
+            "ratio": 100.0
+          },
+          {
+            "denominator": 22.0,
+            "name": "Package",
+            "numerator": 22.0,
+            "ratio": 100.0
+          },
+          {
+            "denominator": 133.0,
+            "name": "File",
+            "numerator": 130.0,
+            "ratio": 97.74436
+          },
+          {
+            "denominator": 133.0,
+            "name": "Class",
+            "numerator": 130.0,
+            "ratio": 97.74436
+          },
+          {
+            "denominator": 5555.0,
+            "name": "Line",
+            "numerator": 4557.0,
+            "ratio": 82.0342
+          },
+          {
+            "denominator": 1068.0,
+            "name": "Conditional",
+            "numerator": 684.0,
+            "ratio": 64.044945
+          }
+        ],
+        "name": "cobertura: coverage.xml"
+      }
+    ],
+    "elements": [
+      {
+        "denominator": 1.0,
+        "name": "Report",
+        "numerator": 1.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 1.0,
+        "name": "Group",
+        "numerator": 1.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 22.0,
+        "name": "Package",
+        "numerator": 22.0,
+        "ratio": 100.0
+      },
+      {
+        "denominator": 133.0,
+        "name": "File",
+        "numerator": 130.0,
+        "ratio": 97.74436
+      },
+      {
+        "denominator": 133.0,
+        "name": "Class",
+        "numerator": 130.0,
+        "ratio": 97.74436
+      },
+      {
+        "denominator": 5555.0,
+        "name": "Line",
+        "numerator": 4557.0,
+        "ratio": 82.0342
+      },
+      {
+        "denominator": 1068.0,
+        "name": "Conditional",
+        "numerator": 684.0,
+        "ratio": 64.044945
+      }
+    ],
+    "name": "All reports"
+  }
+}

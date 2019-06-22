@@ -27,7 +27,7 @@ module Danger
     TABLE_HEADER_LINE = '**Line**'
     TABLE_HEADER_CONDITIONAL = '**Conditional**'
     TABLE_HEADER_INSTRUCTION = '**Instruction**'
-    TABLE_TITLE = '### Code Coverage 💯'
+    TABLE_TITLE = '### Code Coverage :100:'
 
     # Initialize code_coverage plugin.
     def initialize(dangerfile)

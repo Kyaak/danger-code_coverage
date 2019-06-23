@@ -54,7 +54,7 @@ module Danger
       items = coverage_items
       items.select! { |item| file_in_changeset?(item.file) }
       items.each(&method(:update_item))
-      items.sort_by!{|item| -item.total}
+      items.sort_by! { |item| -item.total }
       items.each(&method(:add_entry))
 
       return if @table.size.zero?
@@ -134,7 +134,8 @@ module Danger
     end
 
     def file_in_changeset?(file)
-      target_files.include?(file)
+      result = target_files.select { |value| value =~ %r{.*#{file}} }
+      !result.empty?
     end
 
     def target_files

@@ -7,7 +7,7 @@ require('code_coverage/gem_version.rb')
 Gem::Specification.new do |spec|
   spec.name = 'danger-code_coverage'
   spec.version = CodeCoverage::VERSION
-  spec.authors = ['Martin Schwamberger']
+  spec.authors = ['Kyaak']
   spec.email = ['kyaak.dev@gmail.com']
   spec.description = 'Danger plugin for Jenkins-Code-Coverage-Api plugin.'
   spec.summary = 'Read Jenkins code-coverage reports and comment pull request with coverage for changed files.'

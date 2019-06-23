@@ -14,6 +14,7 @@ module Danger
       before do
         @dangerfile = testing_dangerfile
         @plugin = @dangerfile.code_coverage
+        mock_target_files([])
       end
 
       describe 'report' do
@@ -114,6 +115,27 @@ module Danger
           expect(first[1]).to(include('MainActivity2.java'))
           expect(second[1]).to(include('MainActivity3.java'))
           expect(third[1]).to(include('MainActivity.java'))
+        end
+
+        it 'finds changed file in subdirectory' do
+          mock_coverage_json('/assets/coverage_jacoco_single.json')
+          mock_target_files(['src/main/java/com/example/kyaak/myapplication/MainActivity.java'])
+
+          @plugin.report
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be(1))
+          lines = markdowns.first.message.split("\n")
+          entries = lines[4].split('|')
+          expect(entries[1]).to(eq('com/example/kyaak/myapplication/MainActivity.java'))
+        end
+
+        it 'does not include file not in changeset' do
+          mock_coverage_json('/assets/coverage_jacoco_single.json')
+          mock_target_files(['src/main/java/com/example/kyaak/myapplication/NotFound.java'])
+
+          @plugin.report
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be(0))
         end
       end
     end

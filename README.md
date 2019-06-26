@@ -97,8 +97,12 @@ This plugin is inspired and works only with the jenkins [code-coverage-api-plugi
 ## Usage
 
     code_coverage.report
+    
+### Sort option
 
-## Authentication
+    code_coverage.report(sort: :ascending)
+
+### Authentication
 
 If you run a jenkins server with required authentication you can pass them to `danger-code_coverage`.
 Create an API token with your CI user and do not pass normal password credentials.

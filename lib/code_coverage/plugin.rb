@@ -49,12 +49,22 @@ module Danger
     # @return [void]
     def report(*args)
       options = args.first
+      sort_order = options && options[:sort]
+      if sort_order && !sort_order.eql?(:ascending) && !sort_order.eql?(:descending)
+        raise(ArgumentError, 'Invalid configuration, use [:ascending, :descending]')
+      end
       check_auth(options)
 
       items = coverage_items
       items.select! { |item| file_in_changeset?(item.file) }
       items.each(&method(:update_item))
-      items.sort_by! { |item| -item.total }
+      items.sort_by! do |item|
+        if sort_order.eql?(:ascending)
+          item.total
+        else
+          -item.total
+        end
+      end
       items.each(&method(:add_entry))
 
       return if @table.size.zero?

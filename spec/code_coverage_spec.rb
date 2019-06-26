@@ -100,7 +100,7 @@ module Danger
           expect(entries[2]).to(eq('51.26'))
         end
 
-        it 'sorts lines by total value descending' do
+        it 'sorts lines by total value descending as default' do
           mock_coverage_json('/assets/coverage_jacoco_multiple_unordered.json')
           mock_file_in_changeset(true)
 
@@ -115,6 +115,53 @@ module Danger
           expect(first[1]).to(include('MainActivity2.java'))
           expect(second[1]).to(include('MainActivity3.java'))
           expect(third[1]).to(include('MainActivity.java'))
+        end
+
+        it 'sorts lines by total value descending with config' do
+          mock_coverage_json('/assets/coverage_jacoco_multiple_unordered.json')
+          mock_file_in_changeset(true)
+
+          @plugin.report(
+            sort: :descending
+          )
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be(1))
+          lines = markdowns.first.message.split("\n")
+          first = lines[4].split('|')
+          second = lines[5].split('|')
+          third = lines[6].split('|')
+
+          expect(first[1]).to(include('MainActivity2.java'))
+          expect(second[1]).to(include('MainActivity3.java'))
+          expect(third[1]).to(include('MainActivity.java'))
+        end
+
+        it 'sorts lines by total value ascending with config' do
+          mock_coverage_json('/assets/coverage_jacoco_multiple_unordered.json')
+          mock_file_in_changeset(true)
+
+          @plugin.report(
+            sort: :ascending
+          )
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be(1))
+          lines = markdowns.first.message.split("\n")
+          first = lines[4].split('|')
+          second = lines[5].split('|')
+          third = lines[6].split('|')
+
+          expect(first[1]).to(include('MainActivity.java'))
+          expect(second[1]).to(include('MainActivity3.java'))
+          expect(third[1]).to(include('MainActivity2.java'))
+        end
+
+        it 'throws error if sort config invalid' do
+          mock_coverage_json('/assets/coverage_jacoco_single.json')
+          expect {
+            @plugin.report(
+              sort: :invalid
+            )
+          }.to(raise_error(%r{:ascending, :descending}))
         end
 
         it 'finds changed file in subdirectory' do
@@ -137,13 +184,21 @@ module Danger
           markdowns = @dangerfile.status_report[:markdowns]
           expect(markdowns.length).to(be(0))
         end
+
+        it 'does not fail if request returns null' do
+          mock_coverage_json(nil)
+
+          @plugin.report
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be_zero)
+        end
       end
     end
   end
 end
 
 def mock_coverage_json(file)
-  content = File.read(File.dirname(__FILE__) + file)
+  content = file ? File.read(File.dirname(__FILE__) + file) : file
   @plugin.stubs(:coverage_json).returns(content)
 end
 

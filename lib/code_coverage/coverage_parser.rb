@@ -15,7 +15,9 @@ module CodeCoverage
       raw_json =
         begin
           JSON.parse(content)
-        rescue JSON::ParserError
+          # rubocop:disable Style/RescueStandardError
+        rescue
+          # rubocop:enable Style/RescueStandardError
           {}
         end
       parse_coverage(raw_json)

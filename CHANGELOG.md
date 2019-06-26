@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Catch all errors while parsing url content
 
+### Added
+- Sort options `:ascending`, `:descending`
+
 ## [0.0.1] - 2019-6-22
 ### Added
 - Initial project

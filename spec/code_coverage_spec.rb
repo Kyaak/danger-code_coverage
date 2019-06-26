@@ -137,13 +137,21 @@ module Danger
           markdowns = @dangerfile.status_report[:markdowns]
           expect(markdowns.length).to(be(0))
         end
+
+        it 'does not fail if request returns null' do
+          mock_coverage_json(nil)
+
+          @plugin.report
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be_zero)
+        end
       end
     end
   end
 end
 
 def mock_coverage_json(file)
-  content = File.read(File.dirname(__FILE__) + file)
+  content = file ? File.read(File.dirname(__FILE__) + file) : file
   @plugin.stubs(:coverage_json).returns(content)
 end
 

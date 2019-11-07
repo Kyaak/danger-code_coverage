@@ -64,7 +64,7 @@ module CodeCoverage
     end
 
     def find_element_ratio(elements, name)
-      element = elements.select { |it| it['name'] == name }.first
+      element = elements.find { |it| it['name'] == name }
       element['ratio'].round(2) if element
     end
 

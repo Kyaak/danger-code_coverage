@@ -51,8 +51,9 @@ module Danger
       options = args.first
       sort_order = options && options[:sort]
       if sort_order && !sort_order.eql?(:ascending) && !sort_order.eql?(:descending)
-        raise(ArgumentError, 'Invalid configuration, use [:ascending, :descending]')
+        raise(ArgumentError.new('Invalid configuration, use [:ascending, :descending]'))
       end
+
       check_auth(options)
 
       items = coverage_items
@@ -121,7 +122,11 @@ module Danger
         sum += convert_entry(item.instruction)
       end
 
-      (sum / count).round(2)
+      if count.zero?
+        0.0
+      else
+        (sum / count).round(2)
+      end
     end
 
     def auth_user(options)
@@ -158,7 +163,7 @@ module Danger
     end
 
     def coverage_json
-      options = {ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE}
+      options = { ssl_verify_mode: OpenSSL::SSL::VERIFY_NONE }
       options[:http_basic_authentication] = [@auth[:user], @auth[:token]] if @auth
       OpenURI.open_uri("#{ENV['BUILD_URL']}/coverage/result/api/json?depth=5", options).read
     end

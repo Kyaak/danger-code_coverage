@@ -88,6 +88,22 @@ module Danger
           expect(entries[2]).to(eq('50.94'))
         end
 
+        it 'total returns 0 if no coverage data' do
+          mock_coverage_json('/assets/coverage_jacoco_no_data.json')
+          mock_file_in_changeset(true)
+
+          @plugin.report
+          markdowns = @dangerfile.status_report[:markdowns]
+          expect(markdowns.length).to(be(1))
+          lines = markdowns.first.message.split("\n")
+          entries = lines[4].split('|')
+          expect(entries[2]).to(eq('0.0'))
+          expect(entries[3]).to(eq('-'))
+          expect(entries[4]).to(eq('-'))
+          expect(entries[5]).to(eq('-'))
+          expect(entries[6]).to(eq('-'))
+        end
+
         it 'ignores empty column in total' do
           mock_coverage_json('/assets/coverage_jacoco_no_conditional.json')
           mock_file_in_changeset(true)
@@ -157,11 +173,11 @@ module Danger
 
         it 'throws error if sort config invalid' do
           mock_coverage_json('/assets/coverage_jacoco_single.json')
-          expect {
+          expect do
             @plugin.report(
               sort: :invalid
             )
-          }.to(raise_error(%r{:ascending, :descending}))
+          end.to(raise_error(%r{:ascending, :descending}))
         end
 
         it 'finds changed file in subdirectory' do
